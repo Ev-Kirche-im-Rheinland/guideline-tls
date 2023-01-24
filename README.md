@@ -6,9 +6,8 @@ Transport Layer Security (TLS), the successor to Secure Socket Layer (SSL), is a
 Version: 0.1
 
 ### our goals
-- Organization-wide implementation of the standard
+- Organization-wide implementation of a tls minimum standards
 - Limitation to the most important points and comprehensible instructions for action
-- Publicly usable control options
 - Public websites (e.g., www.ekir.de) should show an A+ SSL status.
 
 ## tls minimum standards
