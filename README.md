@@ -9,6 +9,7 @@ Version: 0.1
 - organization-wide implementation of the minimum standard
 - limitation to the most important points and comprehensible instructions for action
 - our public websites and services shall have a clean tls configuration
+- future-proof tls configurations
 
 ## tls minimum standards
 For the use of TLS, we @ekir refer to the respective applicable version of the
