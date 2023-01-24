@@ -19,25 +19,30 @@ Transport Layer Security (TLS), der Nachfolger von Secure Socket Layer (SSL), is
 Für den Einsatz von TLS nehmen wir bei EKIR bezüglich des Mindeststandards Bezug auf die jeweilsgeltende Fassung der
 
 1) IT Security Guidelines for Transport Layer Security (TLS) des Dutch National Cyber Security Centre 
+
 https://english.ncsc.nl/publications/publications/2021/january/19/it-security-guidelines-for-transport-layer-security-2.1
 
 sowie der
 
-2) Technischen Richtlinie des BSI TR-02102-2 „Kryptographische Verfahren: Empfehlungen undSchlüssellängen. Teil 2 –Verwendung von Transport Layer Security (TLS)“ [TR-02102-2]https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html
+2) Technischen Richtlinie des BSI TR-02102-2 „Kryptographische Verfahren: Empfehlungen undSchlüssellängen. Teil 2 –Verwendung von Transport Layer Security (TLS)“ 
+
+[TR-02102-2]https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html
 
 
 ### TLS Mindeststandards - Umsetzung
 
 Die Anforderungen dieser technischen Richtlinien sind bei allen TLS-Konfigurationen einzuhalten. Der den niederländischen Standard wird bevorzugt.
 
-#### TLS Test Referenz
+### TLS Test Referenz
 
 Tests sind auszuführen mit der Website https://internet.nl/  („Test your Website“)
 
-#### TLS Test weitere Dienste
+### TLS Test weitere Dienste
 
 Folgenden Dienste können zusätzlich verwendet werden:
+
 https://observatory.mozilla.org
+
 https://www.ssllabs.com/ssltest ( X Do not show the results on the boards)
 
 Zusätzlich ist wichtig, dass öffentlich bekannten Websites wie www.ekir.de bei Qualys einenStatus A+ zeigen.
