@@ -5,33 +5,32 @@ Transport Layer Security (TLS), the successor to Secure Socket Layer (SSL), is a
 
 Version: 0.1
 
-### Ziele 
-- Beschränkung auf die wichtigsten Punkte
-- Nachvollziehbare Handlungsanweisungen
-- Öffentlich nutzbare Kontrollmöglichkeiten
-- Öffentliche Websites (z.B. www.ekir.de) sollen einen SSL-Status A+ zeigen.
-- Es wird vorausgesetzt, dass die Regeln der TLS Spezifikation eingehalten werden.
+## Goals
+- Organization-wide implementation of the standard
+- Limitation to the most important points and comprehensible instructions for action
+- Publicly usable control options
+- Public websites (e.g., www.ekir.de) should show an A+ SSL status.
 
-#### TLS-Mindeststandard
-Für den Einsatz von TLS nehmen wir bei EKIR bezüglich des Mindeststandards Bezug auf die jeweils geltende Fassung der
+#### TLS minimum standard
+For the use of TLS, we at EKIR refer to the respective applicable version of the
 
 - IT Security Guidelines for Transport Layer Security (TLS) des Dutch National Cyber Security Centre (https://english.ncsc.nl/publications/publications/2021/january/19/it-security-guidelines-for-transport-layer-security-2.1)
 
-sowie ergänzend
+and supplementary
 
 - Technischen Richtlinie des BSI TR-02102-2 „Kryptographische Verfahren: Empfehlungen undSchlüssellängen. Teil 2 –Verwendung von Transport Layer Security (TLS)“ (TR-02102-2]https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html)
 
-#### Anweichungen vom Mindeststandard
-Dieser Mindeststandard ist für allgemeine kirchliche Anwendungsfälle gedacht. Bei speziellen Problemen kann eine Abweichungen vom Mindeststandard sinnvoll sein.
+#### tls minimum standards - implementation
+The requirements of the above technical guidelines must be implemented. In case of configuration conflicts, the Dutch National Cyber Security Centre standard shall be preferred.
 
-#### TLS Mindeststandards - Umsetzung
-Die Anforderungen der o.g. technischen Richtlinien sind umzusetzen. Bei Konflikten in der Konfiguration ist der Standard des Dutch National Cyber Security Centre zu bervorzugen.
+#### tLS reference test for public websites
+Reference tests for websites are to be executed respectively with 
+- https://internet.nl/ ( test your website )
+- https://www.ssllabs.com/ssltest ( please select "X Do not show the results on the boards")
 
-#### TLS Referenztest Websites
-Referenz-Test für Websites sollen ausgeführt werden mit 
-- https://internet.nl/  („Test your Website“)
-- https://www.ssllabs.com/ssltest ( bitte wählen "X Do not show the results on the boards")
+#### tls reference test for additional public Internet services.
+The following services can be used additionally:
+- https://observatory.mozilla.org ( please select "x Don't include my site in the public results")
 
-#### TLS Referenztest für weitere Dienste
-Folgenden Dienste können zusätzlich verwendet werden:
-- https://observatory.mozilla.org ( bitte wählen "x Don't include my site in the public results")
+#### Deviations from tls minimum standard
+This minimum standard is intended for general church use cases. In special individual cases, a deviation from the minimum standard may be appropriate.
