@@ -3,6 +3,13 @@ these guidelines describe mandatory minimum standards for obtaining, setting up,
 
 Version: 0.1
 
+#### introduction
+- when information is transmitted via communications networks, there is a risk of unauthorized interception or manipulation of information. To ensure the confidentiality and integrity of the information, suitable measures are required to secure the transmission.
+- one possible measure is the use of the Transport Layer Security (TLS) protocol.
+
+#### scope
+- public accessible web applications of the Evangelical Church in Rhineland (EKiR)
+
 ### our goals
 - organization-wide implementation of the minimum standard
 - limitation to the most important points and comprehensible instructions for action
