@@ -23,14 +23,15 @@ and supplementary
 ### tls minimum standards - implementation
 The requirements of the above technical guidelines must be implemented. In case of configuration conflicts, the Dutch National Cyber Security Centre standard shall be preferred.
 
-## tLS reference test 
-#### tLS reference test for public websites
+## audit
+
+#### tls audit for public websites
 Reference tests for websites are to be executed respectively with 
 - https://internet.nl/ ( test your website )
 - https://www.ssllabs.com/ssltest ( please select "X Do not show the results on the boards")
 
-#### tls reference test for additional public Internet services.
-The following services can be used additionally:
+#### tls audit for other public Internet services
+The following services can be used:
 - https://observatory.mozilla.org ( please select "x Don't include my site in the public results")
 
 #### Deviations from tls minimum standard
