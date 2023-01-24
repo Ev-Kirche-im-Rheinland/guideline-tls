@@ -1,7 +1,5 @@
-## guideline-tls
-These guidelines are intended as advice during procurement, set-up or review of confgurations of the Transport Layer Security protocol (TLS) on servers.
-
-Transport Layer Security (TLS), the successor to Secure Socket Layer (SSL), is a network protocol for encrypting communications between TLS servers (such as websites) and TLS clients (such as web browsers). Each communication is secured by a cipher suite: a combination of several algorithms working together. The decision about the right TLS confguration is ultimately up to each organization to decide. It is a complex task and each option requires a choice among the available alternatives, of which there are many. Security plays a role, but so does compatibility with customer or end-user software.
+## tls minimum standards
+These minimum standards are for obtaining, setting up, or verifying Transport Layer Security Protocol (TLS) configurations on servers.
 
 Version: 0.1
 
