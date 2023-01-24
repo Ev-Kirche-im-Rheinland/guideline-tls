@@ -3,7 +3,7 @@ These guidelines are intended as advice during procurement, set-up or review of 
 
 Version: 0.1
 
-# Einführung
+## Einführung
 
 Transport Layer Security (TLS), der Nachfolger von Secure Socket Layer (SSL), ist ein Netzwerkprotokoll zur Verschlüsselung der Kommunikation zwischen TLS-Servern (z. B. Websites) und TLS-Clients (z. B. Webbrowsern). Jede Kommunikation wird durch eine Chiffriersuite gesichert: eine Kombination aus mehreren Algorithmen, die zusammenwirken. Die Entscheidung über die richtige TLS-Konfguration liegt letztlich bei jeder Organisation selbst zu entscheiden. Es ist eine komplexe Aufgabe und jede Option erfordert eine Wahl zwischen den verfügbaren Alternativen, von denen es viele existieren. Die Sicherheit spielt dabei eine Rolle, aber auch die Kompatibilität mit Software der Kunden oder Endbenutzer
 
