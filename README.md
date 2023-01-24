@@ -8,7 +8,8 @@ Version: 0.1
 - one possible measure is the use of the Transport Layer Security (TLS) protocol.
 
 #### scope
-- public web service, site and applications of the Evangelical Church in Rhineland (EKiR)
+- public web services, websites and applications of the Evangelical Church in Rhineland (EKiR)
+- provided by the church itself or by third parties
 
 ### our goals
 - organization-wide implementation of the minimum standard
