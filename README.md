@@ -1,11 +1,9 @@
 # guideline-tls
-These guidelines are intended as advice during procurement, set-up or review of confgurations of the Transport Layer Security protocol (TLS) on servers
+These guidelines are intended as advice during procurement, set-up or review of confgurations of the Transport Layer Security protocol (TLS) on servers.
+
+Transport Layer Security (TLS), the successor to Secure Socket Layer (SSL), is a network protocol for encrypting communications between TLS servers (such as websites) and TLS clients (such as web browsers). Each communication is secured by a cipher suite: a combination of several algorithms working together. The decision about the right TLS confguration is ultimately up to each organization to decide. It is a complex task and each option requires a choice among the available alternatives, of which there are many. Security plays a role, but so does compatibility with customer or end-user software.
 
 Version: 0.1
-
-## Einführung
-
-Transport Layer Security (TLS), der Nachfolger von Secure Socket Layer (SSL), ist ein Netzwerkprotokoll zur Verschlüsselung der Kommunikation zwischen TLS-Servern (z. B. Websites) und TLS-Clients (z. B. Webbrowsern). Jede Kommunikation wird durch eine Chiffriersuite gesichert: eine Kombination aus mehreren Algorithmen, die zusammenwirken. Die Entscheidung über die richtige TLS-Konfguration liegt letztlich bei jeder Organisation selbst zu entscheiden. Es ist eine komplexe Aufgabe und jede Option erfordert eine Wahl zwischen den verfügbaren Alternativen, von denen es viele existieren. Die Sicherheit spielt dabei eine Rolle, aber auch die Kompatibilität mit Software der Kunden oder Endbenutzer
 
 ### Ziele 
 - Beschränkung auf die wichtigsten Punkte
@@ -14,8 +12,8 @@ Transport Layer Security (TLS), der Nachfolger von Secure Socket Layer (SSL), is
 - Öffentliche Websites (z.B. www.ekir.de) sollen einen SSL-Status A+ zeigen.
 - Es wird vorausgesetzt, dass die Regeln der TLS Spezifikation eingehalten werden.
 
-#### TLS-Richtlinien Mindeststandard
-Für den Einsatz von TLS nehmen wir bei EKIR bezüglich des Mindeststandards Bezug auf die jeweilsgeltende Fassung der
+#### TLS-Mindeststandard
+Für den Einsatz von TLS nehmen wir bei EKIR bezüglich des Mindeststandards Bezug auf die jeweils geltende Fassung der
 
 - IT Security Guidelines for Transport Layer Security (TLS) des Dutch National Cyber Security Centre (https://english.ncsc.nl/publications/publications/2021/january/19/it-security-guidelines-for-transport-layer-security-2.1)
 
