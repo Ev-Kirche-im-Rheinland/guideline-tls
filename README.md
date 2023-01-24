@@ -9,7 +9,7 @@ Version: 0.1
 - our public websites and services shall have a clean tls configuration
 - future-proof tls configurations
 
-### tls minimum standards
+## tls minimum standards
 For the use of TLS, we @ekir refer to the respective applicable version of the
 
 - IT Security Guidelines for Transport Layer Security (TLS) des Dutch National Cyber Security Centre (https://english.ncsc.nl/publications/publications/2021/january/19/it-security-guidelines-for-transport-layer-security-2.1)
