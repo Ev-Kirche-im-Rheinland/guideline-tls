@@ -17,7 +17,8 @@ and
 - Technischen Richtlinie des BSI TR-02102-2 „Kryptographische Verfahren: Empfehlungen undSchlüssellängen. Teil 2 –Verwendung von Transport Layer Security (TLS)“ (TR-02102-2]https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html)
 
 ### tls minimum standards - implementation
-The requirements of the above technical guidelines must be implemented. In case of configuration conflicts, the Dutch National Cyber Security Centre standard shall be preferred.
+- the requirements of the above technical guidelines must be implemented
+- in case of configuration conflicts, the standard of the dutch national cyber security centre shall be preferred.
 
 ## audit
 
