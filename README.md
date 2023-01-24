@@ -6,12 +6,12 @@ Transport Layer Security (TLS), the successor to Secure Socket Layer (SSL), is a
 Version: 0.1
 
 ### our goals
-- Organization-wide implementation of a tls minimum standards
-- Limitation to the most important points and comprehensible instructions for action
-- Public websites (e.g., www.ekir.de) should show an A+ SSL status.
+- organization-wide implementation of the minimum standard
+- limitation to the most important points and comprehensible instructions for action
+- our public websites and services shall have a clean tls configuration
 
 ## tls minimum standards
-For the use of TLS, we at EKIR refer to the respective applicable version of the
+For the use of TLS, we @ekir refer to the respective applicable version of the
 
 - IT Security Guidelines for Transport Layer Security (TLS) des Dutch National Cyber Security Centre (https://english.ncsc.nl/publications/publications/2021/january/19/it-security-guidelines-for-transport-layer-security-2.1)
 and
