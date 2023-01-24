@@ -5,13 +5,13 @@ Transport Layer Security (TLS), the successor to Secure Socket Layer (SSL), is a
 
 Version: 0.1
 
-## Goals
+### our goals
 - Organization-wide implementation of the standard
 - Limitation to the most important points and comprehensible instructions for action
 - Publicly usable control options
 - Public websites (e.g., www.ekir.de) should show an A+ SSL status.
 
-#### TLS minimum standard
+## TLS minimum standards
 For the use of TLS, we at EKIR refer to the respective applicable version of the
 
 - IT Security Guidelines for Transport Layer Security (TLS) des Dutch National Cyber Security Centre (https://english.ncsc.nl/publications/publications/2021/january/19/it-security-guidelines-for-transport-layer-security-2.1)
@@ -20,9 +20,10 @@ and supplementary
 
 - Technischen Richtlinie des BSI TR-02102-2 „Kryptographische Verfahren: Empfehlungen undSchlüssellängen. Teil 2 –Verwendung von Transport Layer Security (TLS)“ (TR-02102-2]https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html)
 
-#### tls minimum standards - implementation
+### tls minimum standards - implementation
 The requirements of the above technical guidelines must be implemented. In case of configuration conflicts, the Dutch National Cyber Security Centre standard shall be preferred.
 
+## tLS reference test 
 #### tLS reference test for public websites
 Reference tests for websites are to be executed respectively with 
 - https://internet.nl/ ( test your website )
