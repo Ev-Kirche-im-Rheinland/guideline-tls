@@ -23,12 +23,12 @@ and
 ## audit
 
 #### tls audit for public websites
-Reference tests for websites are to be executed respectively with 
-- https://internet.nl/ ( test your website )
+tests for websites can be carried out with
+- https://internet.nl/ ( test your website ) and
 - https://www.ssllabs.com/ssltest ( please select "X Do not show the results on the boards")
 
 #### tls audit for other public Internet services
-The following services can be used:
+tests for public internet services can be carried out with
 - https://observatory.mozilla.org ( please select "x Don't include my site in the public results")
 
 #### deviations from tls minimum standard
