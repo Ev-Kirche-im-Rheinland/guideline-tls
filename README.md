@@ -1,5 +1,5 @@
 ## tls minimum standards
-These minimum standards are for obtaining, setting up, or verifying Transport Layer Security Protocol (TLS) configurations on servers.
+these minimum standards are for obtaining, setting up, or verifying transport layer security protocol (TLS) configurations on servers.
 
 Version: 0.1
 
