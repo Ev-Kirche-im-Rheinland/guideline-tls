@@ -1,5 +1,5 @@
 ## guideline-tls
-these guidelines describe minimum standards for obtaining, setting up, or verifying transport layer security protocol (TLS) configurations on servers.
+these guidelines describe minimum standards for obtaining, setting up, or verifying transport layer security protocol (TLS) configurations
 
 Version: 0.1
 
