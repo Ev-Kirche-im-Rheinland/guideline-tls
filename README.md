@@ -30,5 +30,6 @@ Reference tests for websites are to be executed respectively with
 The following services can be used:
 - https://observatory.mozilla.org ( please select "x Don't include my site in the public results")
 
-#### Deviations from tls minimum standard
-This minimum standard is intended for general church use cases. In special individual cases, a deviation from the minimum standard may be appropriate.
+#### deviations from tls minimum standard
+- this minimum standard is intended for general use cases
+- in special individual cases, a deviation from the minimum standard may be appropriate.
