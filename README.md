@@ -1,7 +1,7 @@
 ## guideline-tls
 - these guidelines outline the mandatory minimum standards for obtaining, establishing, and verifying Transport Layer Security (TLS) configurations.
 
-Version: 0.2
+Version: 1.0.1
 
 #### introduction
 - when transmitting information over communication networks, there is a risk of unauthorized access or tampering. To protect the confidentiality and integrity of this information, appropriate security measures must be taken.
