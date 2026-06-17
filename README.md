@@ -1,48 +1,101 @@
-## guideline-tls
-- these guidelines outline the mandatory minimum standards for obtaining, establishing, and verifying Transport Layer Security (TLS) configurations.
+# Guideline: Transport Layer Security (TLS)
+**Version:** 1.0.3
 
-Version: 1.0.3
+---
 
-#### introduction
-When transmitting information over communication networks, there is a risk of unauthorized access or tampering. To protect the confidentiality and integrity of this information, appropriate security measures must be taken.
-- One effective solution is the use of the Transport Layer Security (TLS) protocol.
+## 1. Introduction
+When transmitting information over communication networks, there is a risk of unauthorized access or tampering. To protect the confidentiality and integrity of data, appropriate security measures must be implemented.
+**Solution:** Use of the **Transport Layer Security (TLS) protocol**.
 
-#### scope
-These guidelines apply to public web services, websites, and applications of the Evangelical Church in Rhineland (EKiR), whether provided by the church itself or by third parties.
+---
 
-### our objectives include
-- Implementing a minimum standard across the organization.
-- Focusing on crucial aspects and providing clear, easy-to-follow instructions.
-- Ensuring that public websites and services have a secure TLS configuration.
-- Adopting future-proof TLS configurations.
+## 2. Scope
+These guidelines apply to:
+- Public web services, websites, and applications of the **Evangelical Church in Rhineland (EKiR)**
+- Services provided by **EKiR itself or third parties**
 
-### tls minimum standards
-- For the use of TLS, EKiR complies with the relevant and up-to-date version of the IT Security Guidelines for Transport Layer Security (TLS) of the Dutch National Cyber Security Centre and the BSI Technical Guideline TR-02102-2 “Cryptographic Mechanisms: Recommendations and Key Lengths – Part 2: Use of Transport Layer Security (TLS)”.
-- This minimum standard applies to general use cases.
-- The requirements outlined in the technical guidelines must be implemented.
-- In the event of conflicting configurations, the standard set by the Dutch National Cyber Security Centre should be prioritized.
-- In exceptional individual cases, deviations from the minimum standard may be acceptable.
+---
 
-### governance
-- The EKiR IT department, acting in the TLS/PKI role, approves TLS profiles and certificate requests for public EKiR services and maintains a central certificate inventory.
-- System owners are responsible for ensuring that their services and commissioned service providers comply with this guideline.
+## 3. Objectives
+- Establish a **minimum security standard** across the organization.
+- Focus on **critical aspects** with clear, actionable instructions.
+- Ensure **secure TLS configurations** for all public websites and services.
+- Implement **future-proof TLS settings**.
 
-### service providers
-- Public EKiR services operated by external service providers must comply with this guideline.
-- Service providers must use only certificate authorities and certificate types approved by EKiR, coordinate TLS changes and certificate usage with EKiR in advance, test TLS regularly, and remediate findings in a timely manner.
-- These requirements should be reflected in written contracts or security appendices with service providers.
+---
 
-#### tls minimum standards - implementation
-- Tests for websites can be performed using [internet.nl](https://internet.nl/) and [SSL Labs Server Test](https://www.ssllabs.com/ssltest/), with public publication disabled where possible.
-- Tests for other public internet services can be conducted using [Mozilla Observatory](https://observatory.mozilla.org/), with public publication disabled where possible.
+## 4. TLS Minimum Standards
 
-### lifecycle and audit
-- Public TLS certificates should not have a validity period longer than 12 months.
-- All public certificates must be documented centrally with at least the FQDN, service name, certificate authority, validity period, and operating party.
-- TLS configurations should be tested at least annually and after major changes, and the results should be documented.
+### 4.1 Compliance
+EKiR adheres to:
+- **Dutch National Cyber Security Centre (NCSC) TLS Guidelines** (latest version)
+- **BSI TR-02102-2** ("Cryptographic Mechanisms: Recommendations and Key Lengths – Part 2: Use of TLS")
 
-#### tls audit for public websites
-- Regular verification should use the tools referenced above and be integrated into EKiR's information security management and risk management processes.
+### 4.2 General Rules
+- Applies to **all standard use cases**.
+- **Mandatory implementation** of technical guideline requirements.
+- **Conflict resolution:** NCSC standards take precedence.
+- **Exceptions:** Deviations may be permitted in **justified individual cases**.
 
-#### tls audit for other public internet services
-- Where websites are not in scope, equivalent TLS checks should be performed using suitable public testing tools and documented accordingly.
+---
+
+## 5. Governance
+
+### 5.1 Responsibilities
+| Role | Responsibility |
+|------|---------------|
+| **EKiR IT Department (TLS/PKI Role)** | Approves TLS profiles & certificate requests; maintains central certificate inventory. |
+| **System Owners** | Ensure compliance for their services and commissioned providers. |
+
+### 5.2 Service Providers
+**Requirements for external providers:**
+✅ Use **only EKiR-approved Certificate Authorities (CAs) and certificate types**
+✅ **Coordinate TLS changes & certificate usage** with EKiR in advance
+✅ **Regularly test TLS configurations** and remediate findings promptly
+✅ **Contractual obligation:** Include these requirements in **written agreements or security appendices**
+
+---
+
+## 6. Implementation & Testing
+
+### 6.1 Testing Tools
+| Service Type | Recommended Tool | Notes |
+|-------------|----------------|-------|
+| **Websites** | [internet.nl](https://internet.nl/), [SSL Labs Server Test](https://www.ssllabs.com/ssltest/) | Disable public publication where possible |
+| **Other Public Services** | [Mozilla Observatory](https://observatory.mozilla.org/) | Disable public publication where possible |
+
+---
+
+## 7. Lifecycle & Audit
+
+### 7.1 Certificate Management
+- **Maximum validity period:** **12 months** for public TLS certificates.
+- **Central documentation required** for all public certificates, including:
+  - FQDN
+  - Service name
+  - Certificate Authority (CA)
+  - Validity period
+  - Operating party
+
+### 7.2 Audit Requirements
+- **Frequency:** **Annual testing** (or after major changes)
+- **Documentation:** Results must be recorded.
+
+#### 7.2.1 Public Websites
+- Use **referenced tools** (internet.nl, SSL Labs)
+- Integrate into **EKiR’s ISMS (Information Security Management System) and risk management processes**
+
+#### 7.2.2 Other Public Internet Services
+- Perform **equivalent TLS checks** using suitable tools
+- **Document findings** accordingly
+
+---
+---
+### Changelog
+| Version | Date       | Changes                          |
+|---------|------------|----------------------------------|
+| 1.0.3   | [DD/MM/YYYY] | [Brief description of changes]   |
+
+---
+### Notes
+- For **exceptions or clarifications**, contact the **EKiR IT Department (TLS/PKI Role)**.
