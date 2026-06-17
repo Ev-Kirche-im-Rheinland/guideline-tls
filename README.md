@@ -94,7 +94,7 @@ EKiR adheres to:
 ### Changelog
 | Version | Date       | Changes                          |
 |---------|------------|----------------------------------|
-| 1.0.3   | 17.06.2006 | [design changes ]   |
+| 1.0.3   | 17.06.2026 | [design changes ]   |
 
 ---
 ### Notes
